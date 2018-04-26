@@ -1,0 +1,339 @@
+/*Navigation*/
+nav {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    width: 100%;
+    background: #E87A0C;
+    margin: 1rem 0;
+    float: left;
+    text-align: center;
+    list-style: none;
+    padding: 1rem 2rem;
+}
+
+nav ul li:hover {
+    background-color:#FFE00D;
+}
+
+.desktop-visible {
+    display: none;
+}
+
+
+
+
+/*Logo and images*/
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+#logo .img img {
+    max-height: 100px;
+    height: 100px;
+    width: auto;
+}
+
+
+/*Container*/
+
+.desktop-view-visible {
+    display: none;
+}
+
+.main {
+    clear: both;
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.row {
+    text-align: left;
+}
+
+.col {
+    padding: 1rem 1rem;
+}
+
+.row h3 {
+    text-align: center;
+}
+
+.row .fig {
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
+p {
+    padding: 0 3rem;
+}
+
+.figure {
+    width: 100%;
+    padding: 0 3rem;
+}
+
+/*Footer*/
+
+footer,
+footer .row p,
+footer ul {
+    clear: both;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    color:  #E87A0C;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    list-style: none;
+    padding: 1rem 0.5rem;
+    
+}
+
+/*Fonts for headings and paragraphs/Line height*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.col .h3,
+.col h3 {
+    font-family: 'Cantata One', serif;
+    line-height: 1.5;
+}
+
+p,
+.fig,
+nav
+ {
+    font-family: 'Imprima', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+/*Min-width*/
+
+a {
+    color: #000000;
+    ;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    text-align: center;
+}
+
+
+
+
+
+
+/*Media Queries*/
+
+@media only screen and (min-width: 35rem) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h3 {
+        font-family: 'Cantata One', serif;
+        line-height: 1.5;
+    }
+
+    p,
+    .fig,
+    nav {
+        font-family: 'Imprima', sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .mobile-visible {
+        display: none;
+    }
+
+    .desktop-view-visible {
+        display: block;
+    }
+
+    .masthead {
+        clear: both;
+        background-image:url(../img/sustainable.jpg);
+        background-color: rgba(255, 0, 0, 0.2);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .masthead .container {
+        text-align: center;
+        margin: 100px 0;
+        display: inline-block;
+        background-color: #E87A0C;
+    }
+
+    .desktop-visible {
+        display: none;
+    }
+
+    nav {
+        text-align: center;
+        display: block;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        width: 49%;
+        margin: 2rem 0;
+        margin-right: 5px;
+        display: inline-block;
+        background: #E87A0C;
+        list-style: none;
+        padding: 1rem 2rem;
+    }
+
+    .row .h3,
+    .row h3 {
+        text-align: left;
+    }
+
+    .figure {
+        width: 40%;
+        float: left;
+        padding: 0;
+    }
+    
+    p {
+        padding: 0 3rem;
+    }
+
+    p {
+        width: 60%;
+        float: left;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    footer,
+    footer .row p,
+    footer ul {
+        clear: both;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer ul li {
+        display: inline-block;
+        list-style: none;
+        padding-right: 1rem 0.5rem;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        color: #E87A0C
+    }
+
+}
+
+
+@media only screen and (min-width: 80rem) {
+
+    .navigation {
+        width: 100%;
+    }
+    .desktop-visible {
+        display: inline-block;
+        float: left;
+    }
+
+    .logo-img img {
+        max-height: 100px;
+        height: 100px;
+        width: auto;
+    }
+
+    nav {
+        float: left;
+        text-align: left;
+        display: block;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        width: 60%;
+        text-align: left;
+        display: inline-block;
+    }
+
+    nav ul li {
+        margin: 2rem 0;
+        margin-right: 5px;
+        display: inline-block;
+        background: #E87A0C;
+        list-style: none;
+        padding: 1rem 2rem;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .figure {
+        width: 40%;
+        float: left;
+        margin: 0;
+    }
+
+
+    p {
+        padding: 0 3rem;
+        width: 60%;
+        float: left;
+    }
+
+    footer {
+        clear: both;
+    }
+}
